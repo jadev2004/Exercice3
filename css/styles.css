@@ -147,6 +147,20 @@ border-bottom-style: solid;
 background-color: white;
 }
 
+.boite-bouton{
+background-color: #b7b7b7;
+padding: 15px 45px;
+border-radius: 5px;
+color: #000000;
+}
+
+.boutton:hover{
+background-color: #0E5EA1;
+color: white;
+
+}
+
+
 /*Footer*/
 
 footer{
