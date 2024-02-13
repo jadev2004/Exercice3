@@ -70,6 +70,22 @@ color: #000000;
 font-family: 'Dosis', sans-serif;
 }
 
+.boite{
+color: white;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.7);
+border-radius: 10px;
+align-items: center;
+
+}
+
+.boite p {
+color: #2fcb48;
+font-size: 20px;
+text-align: center;
+
+}
+
 /*-------Navigation-------*/
 
 header ul{
@@ -127,8 +143,13 @@ margin-top: 10px;
 text-align: center;
 margin-bottom: 0px;
 margin-top: 0px;
+font-size: 20px;
 }
 
+.hero h2{
+font-family: 'Dosis', sans-serif;
+font-size: 36px;
+}   
 
 /*Section de contenu*/
 
@@ -140,6 +161,9 @@ margin-bottom: 40px;
 }
 
 article{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 padding: 10px;
 border-bottom-color: #0E5EA1;
 border-bottom-width: 10px;
@@ -147,16 +171,40 @@ border-bottom-style: solid;
 background-color: white;
 }
 
+article h3{
+font-family: 'Dosis', sans-serif;
+
+}   
+
+article p {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+} 
+
+
 .boite-bouton{
+display: flex;
+justify-content: center;
+
+}
+
+.boutton{
 background-color: #b7b7b7;
 padding: 15px 45px;
 border-radius: 5px;
 color: #000000;
+font-family: 'Dosis', sans-serif;
 }
 
 .boutton:hover{
 background-color: #0E5EA1;
 color: white;
+
+}
+
+.boutton a{
+color: black;
+justify-content: center;
 
 }
 
@@ -172,9 +220,10 @@ footer{
  padding-bottom: 3px;
 }
 
-
-
-
+footer p{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
 
 /*align itself pour bouton darticle
 font-family: 'Dosis', sans-serif;
